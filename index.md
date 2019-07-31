@@ -1,5 +1,4 @@
 ---
-
 layout: home
 title: Home
 ---
@@ -29,11 +28,11 @@ Key (planned) features:
   - "Stacked" `+`, `-`, `>`, and `<` operations. Can do up to 256 repeated steps in a single instruction.
 - Robust I/O system
   - Keyboard / Character LCD support at simplest.
-  - Memory mapping / bank switching to support additional peripherals
+  - (Potentially) Bank switching to support additional peripherals:
     - Tape reader?
     - Floppy Drive?
     - Ethernet adapter?
   - Support for quick program loading via I/O ports
 - Blinkenlights wherever remotely possible
 - ROM based microcode
-- Switchable between 8-bit and 16-bit data word size
+- Switchable between 8-bit and 16-bit data "cell" size
