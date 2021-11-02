@@ -1,6 +1,5 @@
 digraph mygraph {
 node [shape=record];
-rankdir="LR"
 
 
 Boot -> S;
