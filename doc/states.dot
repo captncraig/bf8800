@@ -1,0 +1,50 @@
+digraph mygraph {
+node [shape=record];
+rankdir="LR"
+
+
+Boot -> S;
+
+
+S -> F0 [label = "RUN"]
+S -> S  [label = "!RUN"]
+
+Boot [label="Boot|{DR_WE|PC_WE|DP_WE}"]
+S [label="S"]
+
+F0 [label="F0|{PC_R|MAR_WE}"]
+F1 [label="F1|{PMEM_R|IR_WE}"]
+F2 [label="F2|{PC_R|PC_I|PC_WE}"]
+
+F0->F1
+F1->F2
+F2 -> Add0 [label="+"]
+F2 -> Sub0 [label="-"]
+F2 -> LR0  [label="<"]
+F2 -> LR0  [label=">"]
+
+IRZ [label="IRZ|{IR_R|IR_D|IR_WE}"]
+
+Add0 [label="+|{DR_R|DR_I|DR_WE}"]
+Add0 -> S [label="IRZ"]
+Add0 -> IRZ [label="!IRZ"]
+IRZ -> Add0 [label="+"]
+
+Sub0 [label="-|{DR_R|DR_I|DR_WE}"]
+Sub0 -> S [label="IRZ"]
+Sub0 -> IRZ [label="!IRZ"]
+IRZ -> Sub0 [label="-"]
+
+LR0 [label="DP0|{DP_R|MAR_WE}"]
+LR0 -> LR1
+LR1 [label="DP1|{DR_R|DMEM_WE}"]
+LR1 -> L0 [label="<"]
+LR1 -> R0 [label="<"]
+L0 [label="\<|{DP_R|DP_D|DP_WE}"]
+L0 -> IRZ [label="!IRZ"]
+IRZ -> L0 [label="<"]
+R0 [label="\>|{DP_R|DP_I|DP_WE}"]
+R0 -> IRZ [label="!IRZ"]
+IRZ -> R0 [label=">"]
+
+}
