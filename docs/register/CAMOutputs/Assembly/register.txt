@@ -1,0 +1,16 @@
+Partlist exported from /home/craig/code/captncraig/bf8800/register.sch at 11/3/21 3:07 PM
+
+Qty Value         Device          Package      Parts                                                                     Description                            MOUSER             POPULARITY SPICEPREFIX
+16                DIODE-D-7.5     D-7.5        D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16     DIODE                                                     4                     
+1                 PINHD-1X2       1X02         JP8                                                                       PIN HEADER                                                98                    
+1                 PINHD-1X7       1X07         JP5                                                                       PIN HEADER                                                0                     
+5                 PINHD-1X8       1X08         JP1, JP2, JP3, JP4, JP6                                                   PIN HEADER                                                67                    
+15  10k           R-US_0204/7     0204/7       R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31 RESISTOR, American symbol              603-MFR-12FRF5210K 48         R          
+4   ADD(283)      74AC283N        DIL16        IC3, IC4, IC5, IC6                                                        4-bit binary FULL ADDER, fast carry    595-CD74HCT283E    0                     
+1   AND(08)       74ALS08N        DIL14        IC10                                                                      Quad 2-input AND gate                  595-SN74HC08AN     0                     
+2   BUF(244)      74AC244N        DIL20        IC7, IC8                                                                  Octal BUFFER and LINE DRIVER, 3-state  595-SN74HCT244NE4  4                     
+5   C-Decouple    C-EU025-025X050 C025-025X050 C1, C2, C3, C4, C5                                                        CAPACITOR, European symbol                                65         C          
+2   D(574)        74AS574N        DIL20        IC1, IC2                                                                  8-bit D type FLIP FLOP bus driver      595-SN74HCT574NE4  0                     
+3   MOUNT-HOLE3.0 MOUNT-HOLE3.0   3,0          H1, H2, H3                                                                MOUNTING HOLE with drill center marker                    3                     
+1   NOT(04)       74ALS04N        DIL14        IC9                                                                       Hex INVERTER                           595-SN74HCT04NE4   10                    
+16  R-LED         R-US_0204/7     0204/7       R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16     RESISTOR, American symbol                                 48         R          

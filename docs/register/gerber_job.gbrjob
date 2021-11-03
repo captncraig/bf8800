@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-11-03T19:07:11Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "register"
+        },
+        "Owner": "Andrew Nasson <10890659@uvu.edu>",
+        "Size": {
+            "X": 100.33,
+            "Y": 74.93
+        }
+    }
+}
