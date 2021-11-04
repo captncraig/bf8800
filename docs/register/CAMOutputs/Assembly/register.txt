@@ -1,4 +1,4 @@
-Partlist exported from /home/craig/code/captncraig/bf8800/register.sch at 11/3/21 3:07 PM
+Partlist exported from /home/craig/code/captncraig/bf8800/register.sch at 11/4/21 9:52 AM
 
 Qty Value         Device          Package      Parts                                                                     Description                            MOUSER             POPULARITY SPICEPREFIX
 16                DIODE-D-7.5     D-7.5        D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16     DIODE                                                     4                     
