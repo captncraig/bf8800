@@ -10,12 +10,12 @@ layout: null
     <script src="https://mayhewlabs.com/webGerber/ObjectControls.js"></script>
     <script src="https://mayhewlabs.com/webGerber/webGerber.js"></script>
     <script type="text/x-gerber" id="gbs.GTS">{% include_relative register/solderpaste_top.gbr %}</script>
-    <script type="text/x-gerber" id="gbs.GBL" src="register/copper_bottom.gbr"></script>
+    <script type="text/x-gerber" id="gbs.GBL">{% include_relative register/copper_bottom.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GBS"></script>
     <script type="text/x-gerber" id="gbs.TXT"></script>
-    <script type="text/x-gerber" id="gbs.GTL" src="register/copper_top.gbr"></script>
+    <script type="text/x-gerber" id="gbs.GTL">{% include_relative register/copper_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GTO"></script>
-    <script type="text/x-gerber" id="gbs.OUT" src="register/profile.gbr"></script>
+    <script type="text/x-gerber" id="gbs.OUT">{% include_relative register/profile.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GTP"></script>
     <script type="text/x-gerber" id="gbs.GBO"></script>
     <style>
