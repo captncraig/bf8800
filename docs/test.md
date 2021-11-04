@@ -16,7 +16,7 @@ layout: null
     <script type="text/x-gerber" id="gbs.GTL">{% include_relative register/copper_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GTO">{% include_relative register/silkscreen_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.OUT">{% include_relative register/profile.gbr %}</script>
-    <script type="text/x-gerber" id="gbs.GTP"></script>
+    <script type="text/x-gerber" id="gbs.GTP">{% include_relative register/solderpaste_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GBO">{% include_relative register/silkscreen_bottom.gbr %}</script>
     <style>
         body {
