@@ -9,15 +9,15 @@ layout: null
     <script src="https://mayhewlabs.com/webGerber/three.min.js"></script>
     <script src="https://mayhewlabs.com/webGerber/ObjectControls.js"></script>
     <script src="https://mayhewlabs.com/webGerber/webGerber.js"></script>
-    <script type="text/x-gerber" id="gbs.GTS">{% include_relative register/solderpaste_top.gbr %}</script>
+    <script type="text/x-gerber" id="gbs.GTS">{% include_relative register/soldermask_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GBL">{% include_relative register/copper_bottom.gbr %}</script>
-    <script type="text/x-gerber" id="gbs.GBS"></script>
+    <script type="text/x-gerber" id="gbs.GBS">{% include_relative register/soldermask_bottom.gbr %}</script>
     <script type="text/x-gerber" id="gbs.TXT"></script>
     <script type="text/x-gerber" id="gbs.GTL">{% include_relative register/copper_top.gbr %}</script>
-    <script type="text/x-gerber" id="gbs.GTO"></script>
+    <script type="text/x-gerber" id="gbs.GTO">{% include_relative register/silkscreen_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.OUT">{% include_relative register/profile.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GTP"></script>
-    <script type="text/x-gerber" id="gbs.GBO"></script>
+    <script type="text/x-gerber" id="gbs.GBO">{% include_relative register/silkscreen_bottom.gbr %}</script>
     <style>
         body {
             margin: 0;
