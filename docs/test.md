@@ -12,7 +12,7 @@ layout: null
     <script type="text/x-gerber" id="gbs.GTS">{% include_relative register/soldermask_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GBL">{% include_relative register/copper_bottom.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GBS">{% include_relative register/soldermask_bottom.gbr %}</script>
-    <script type="text/x-gerber" id="gbs.TXT"></script>
+    <script type="text/x-gerber" id="gbs.TXT">{% include_relative register/drill.txt %}</script>
     <script type="text/x-gerber" id="gbs.GTL">{% include_relative register/copper_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.GTO">{% include_relative register/silkscreen_top.gbr %}</script>
     <script type="text/x-gerber" id="gbs.OUT">{% include_relative register/profile.gbr %}</script>
